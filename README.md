@@ -3,7 +3,7 @@ Finding Direction of arrival (DOA) of small UAVs using Sparse Denoising Autoenco
 
 Architecture:
 
-![Screenshot](Whole Architecture.png)
-![Screenshot](Training.png)
+![Screenshot](Whole_Architecture.PNG)
+![Screenshot](Training.PNG)
 
 A detailed description can be found in our paper : https://github.com/LahiruJayasinghe/publications/blob/master/RF-based%20direction%20finding%20of%20UAVs%20using%20DNN.pdf 

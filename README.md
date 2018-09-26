@@ -16,8 +16,8 @@ For more details, please see our paper below.
 
 ### Dependencies
 
-Tensorflow (recommended below 1.5)
-Numpy 1.14.4
+- Tensorflow (recommended below 1.5)
+- Numpy 1.14.4
 
 ### Dataset
 

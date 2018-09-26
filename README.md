@@ -52,6 +52,6 @@ If this is useful for your work, please cite our [Arxiv paper](https://arxiv.org
 ```
 ### License
 This is released under the MIT license. For more details, please refer
-[LICENSE.txt](https://github.com/LahiruJayasinghe/DeepDOA/blob/master/LICENSE).
+[LICENSE](https://github.com/LahiruJayasinghe/DeepDOA/blob/master/LICENSE).
 
 "Copyright (c) 2018 Lahiru Jayasinghe"

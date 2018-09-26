@@ -1,0 +1,2 @@
+model_checkpoint_path: "DenoisingAE_save_noise_add"
+all_model_checkpoint_paths: "DenoisingAE_save_noise_add"

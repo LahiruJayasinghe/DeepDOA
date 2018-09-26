@@ -8,9 +8,6 @@ def corrupt(x):
     # r = tf.multiply(x,tf.cast(tf.random_uniform(shape=tf.shape(x), minval=0, maxval=0.1, dtype=tf.float32), tf.float32))
     return r
 
-def get_predicted_angle(pred_class):
-    return "angle = " + str(pred_class*45)
-
 def autoencoder(dimensions=[784, 512, 256, 64]):
 
     x = tf.placeholder(tf.float32, [None, dimensions[0]], name='x')
@@ -183,3 +180,12 @@ if __name__ == "__main__":
         print("Accuracy:", accuracy.eval({x: antenna_data, y: label_data}))
 
         print("Accuracy:", accuracy.eval({x: antenna_data_test, y: label_data_test}))
+
+        for i in range(0, 8):
+            x_i, y_i = data.next_batch(110)
+            pred_result = sess.run(tf.argmax(pred, 1), feed_dict={x: x_i, y: y_i})
+            # print('angle = ',i*45 ,' ', collections.Counter(pred_result))
+            unique, counts = np.unique(pred_result, return_counts=True)
+            unique_angles = unique * 45
+            percentage = (counts / 110) * 100
+            print('angle = ', i * 45, ' ', dict(zip(unique_angles, percentage)))

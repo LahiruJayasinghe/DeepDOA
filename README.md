@@ -3,7 +3,7 @@ An implementation of a Sparse Denoising Autoencoder (SDAE)-based Deep Neural Net
 
 The proposed DF scheme is practical and low-complex in the sense that a phase synchronization mechanism, an antenna calibration mechanism, and the analytical model of the antenna radiation pattern are not essential. Also, the proposed DF method can be implemented using a single-channel RF receiver.
 
-For more details, please see our paper below.
+For more details, please see our paper [Arxiv paper](https://arxiv.org/pdf/1712.01154.pdf).
 
 ### Whole Architecture:
 
